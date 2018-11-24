@@ -1,0 +1,20 @@
+.tick .tick-line {
+    fill: none;
+    stroke: grey;
+    stroke-width: 1;
+    shape-rendering: crispEdges;
+}
+
+circle.point {
+    cursor: pointer;
+}
+
+circle.point:hover {
+    fill: pink;
+
+}
+
+.x-labels text {
+    transform: rotate(270deg);
+    text-anchor: end;
+}
